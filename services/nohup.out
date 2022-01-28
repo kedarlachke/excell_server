@@ -1,0 +1,177 @@
+{ host: '81.4.102.11',
+  user: 'it_dev',
+  password: 'it_dev',
+  database: 'excel_qa',
+  multipleStatements: true }
+mongodb://81.4.102.11:27018/authdev
+GraphQL Server is now running on http://81.4.102.11:7001/excellinv
+Go to http://81.4.102.11:7001/excellinv to run queries!
+------------------------------------------------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200211
+103.204.163.41 - - [06/Aug/2020:14:32:11 +0000] "GET /casetype HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200212
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200212
+103.204.163.41 - - [06/Aug/2020:14:32:12 +0000] "GET /vendors~bundle~vendor.af973ca212b4ce8adef6.js HTTP/1.1" 304 - "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+103.204.163.41 - - [06/Aug/2020:14:32:12 +0000] "GET /vendors~bundle.f44f4e69cd0740773da4.js HTTP/1.1" 304 - "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200212
+-----------------
+deserializeUser
+-----------------
+103.204.163.41 - - [06/Aug/2020:14:32:12 +0000] "GET /bundle.9d50adbc5f33f4cababa.js HTTP/1.1" 304 - "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+Request received at : 20200806  200212
+Request received at : 20200806  200212
+103.204.163.41 - - [06/Aug/2020:14:32:12 +0000] "GET /vendors~vendor.8f351a5da98499e33d17.js HTTP/1.1" 304 - "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+103.204.163.41 - - [06/Aug/2020:14:32:12 +0000] "GET /vendor.d20872d3057a3eb1f23d.js HTTP/1.1" 304 - "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200215
+-----------------
+currentUserUsername
+-----------------
+------context.request.user-----------
+{ _id: 5b6fc9963d97ce30389484ec,
+  applicationid: '15001500',
+  client: '1002',
+  lang: 'EN',
+  username: 'exuser',
+  password: '$2a$10$ZtBz41oI/hGZAvb/40vRX.H.mRGhGVKg6TZI/R5kH53pAZA9CBAyq',
+  email: 'exuser@itss.com',
+  __v: 0,
+  mobile: '1234567891' }
+--------context.request.user---------
+103.204.163.41 - - [06/Aug/2020:14:32:15 +0000] "POST /excellinv HTTP/1.1" 200 139 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200216
+-----------------
+deserializeUser
+-----------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200216
+Request received at : 20200806  200216
+s0
+103.204.163.41 - - [06/Aug/2020:14:32:16 +0000] "POST /excellinv HTTP/1.1" 200 3153 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+103.204.163.41 - - [06/Aug/2020:14:32:16 +0000] "POST /excellinv HTTP/1.1" 200 6503 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+103.204.163.41 - - [06/Aug/2020:14:32:16 +0000] "POST /excellinv HTTP/1.1" 200 294 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200217
+s0
+103.204.163.41 - - [06/Aug/2020:14:32:17 +0000] "POST /excellinv HTTP/1.1" 200 31 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200217
+103.204.163.41 - - [06/Aug/2020:14:32:17 +0000] "GET /favicon.ico HTTP/1.1" 200 2930 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200217
+s0
+-----------------
+deserializeUser
+-----------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200217
+s0
+s0
+s0
+Request received at : 20200806  200217
+s0
+103.204.163.41 - - [06/Aug/2020:14:32:17 +0000] "POST /excellinv HTTP/1.1" 200 1835 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+103.204.163.41 - - [06/Aug/2020:14:32:17 +0000] "POST /excellinv HTTP/1.1" 200 173 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+103.204.163.41 - - [06/Aug/2020:14:32:17 +0000] "POST /excellinv HTTP/1.1" 200 519 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200221
+s0
+103.204.163.41 - - [06/Aug/2020:14:32:21 +0000] "POST /excellinv HTTP/1.1" 200 519 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200806  200236
+s0
+{ isDuplicate: true,
+  duplicateRecordsMessage: 'Record 1: Duplicate record found. ',
+  recordsNotFoundMessage: '',
+  duplicateCount: 1 }
+CREATE
+[ '1002', 'EN', '10001094', '%%' ]
+in remider wqe
+{ CLNT: '1002',
+  LANG: 'EN',
+  CLIENTID: '10001094',
+  CIDSYS: '20001497',
+  CONTACTTYPE: 'qrwetretert',
+  FULLNM: 'kedarlachke1@gmail.com',
+  TOTAL: '700',
+  RATEPERH: '70',
+  RATEPERM: '0.56',
+  MAXH: '700',
+  OTHER: 'ssadasdadaerwrerw eqwrwrwqv  wqedwqerew 3dsafdsfds dewrwrwerewrwwererwer ewrwerwerewr dwer erewrewrw ewrwrwe ewrwerew wqerwerw ewqrwerw wdewqr',
+  SERVICETYPE: 'WORKERS_COMP',
+  TYPOFCONTRACT: 'INFIDELITY',
+  SUBJECT: 'ExcellInvestigation Contract',
+  MAILBODY: '<p>Dear --------------------,</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please check the attached contract and if any modification required please revert back.</p>\n',
+  _TO: 'kedarlachke1@gmail.com',
+  CC: '',
+  BCC: '' }
+103.204.163.41 - - [06/Aug/2020:14:32:36 +0000] "POST /excellinv HTTP/1.1" 200 61 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
+2
+<p>Dear --------------------,</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please check the attached contract and if any modification required please revert back.</p>
+
+undefined
+{ from: 'support@excellinvestigation.com',
+  to: undefined,
+  cc: 'Kedar Lachke <kedarlachke1@gmail.com>,',
+  bcc: '',
+  subject: 'ExcellInvestigation Contract',
+  html: ' \n        <html><body>\n        <div marginwidth="0" marginheight="0">\n\n        <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">\n        <tbody><tr>\n        <td width="100%" valign="top" bgcolor="#f8f8f8">\n\n        <table width="660" border="0" cellpadding="0" cellspacing="0" bgcolor="#C4B19B" align="center" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;border-top:1px solid #e1e1e1;margin-top:50px">\n        <tbody><tr>\n            <td width="660">\n\n            <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n                <tbody><tr>\n                <td height="30">\n                </td>\n                </tr>\n            </tbody></table>\n\n            \n            <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n                <tbody><tr>\n                <td width="40"  style="padding-left: 15px;">\n                    <a href="http://www.excellinvestigations.net"  target="_blank">\n                               \n                    <img src="https://www.excellinvestigations.net/wp-content/uploads/2018/12/logo2.png" style="margin:0 0 0 0;width:60px">  \n                </td>\n                    </a>\n                <td width="50" style="font-size:16px;color:#b8b9c1;font-weight:normal;font-family:Helvetica,Arial,sans-serif;line-height:24px;vertical-align:top; padding-left: 10px;">\n                    <h1  style="color: ivory;font-size: 24px; margin: 0 0 7px 0;padding: 0;font-size: 18px; font-weight: bold;">\n                    <span>EXCELL INVESTIGATION</span><br>\n                    <a href="http://www.excellinvestigations.net" style="background-color:#E0DAC5;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:10px;font-weight:bold;line-height:28px;text-align:center;text-decoration:none;height: 29px !important;width:160px" target="_blank">\n                    VISIT OUR WEBSITE\n                    </a>\n                    </h1>\n                </td>\n                <td width="220" style="vertical-align: text-top;">\n                    <span style="text-decoration:none;color:#FFF;font-weight:bold;font-size:15px;line-height:18px">NEED ASSISTANCE !</span><br>\n                    <span style="text-decoration:none;color:#FFF;font-weight:bold;font-size:15px;line-height:20px">1.888.666.0089</span><br>\n                </td>\n                </tr>\n                \n            \n                <tr>\n                <td width="40"></td>\n                <td width="512" height="30"></td>\n                <td width="40"></td>\n                </tr>\n            </tbody></table>\n\n            </td>\n        </tr>\n        </tbody></table>\n        <table width="660" border="0" cellpadding="0" cellspacing="0" bgcolor="#D6C6B3" align="center" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1">\n        <tbody>\n            <tr>\n            <td width="660">\n\n                <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n                <tbody>\n                    <tr>\n                    <td height="20">\n                    </td>\n                    </tr>\n                </tbody>\n                </table>\n\n                \n                <table width="660" border="0" cellpadding="0" cellspacing="0" align="center" style="background:#D6C6B3">\n                <tbody>\n                    <tr>\n                    <td width="40"></td>\n                    <td width="510" style="font-size:14px;color:#444;font-weight:normal;text-align:left;font-family:Helvetica,Arial,sans-serif;line-height:24px;vertical-align:top">\n                        \n                        \n                        <p>Dear --------------------,</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please check the attached contract and if any modification required please revert back.</p>\n\n                            <br><br>\n                        \n                    \n                        <br>\n                    </td>\n                    <td width="40"></td>\n                    </tr>\n                </tbody>\n                </table>\n\n            </td>\n            </tr>\n        </tbody>\n        </table>\n\n\n        <table width="660" border="0" cellpadding="0" cellspacing="0" bgcolor="#D6C6B3" align="center" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1">\n        <tbody>\n            <tr>\n            <td width="660">\n\n                \n            </td>\n            </tr>\n        </tbody>\n        </table>\n\n\n\n\n\n\n        <table width="660" border="0" cellpadding="0" cellspacing="0" bgcolor="#D6C6B3" align="center" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1">\n        <tbody><tr>\n            <td width="660">\n\n            \n            <table width="660" border="0" cellpadding="0" cellspacing="0" bgcolor="#D6C6B3" align="center">\n                <tbody><tr>\n                <td width="660" height="10">\n                </td>\n                </tr>\n            </tbody></table>\n            \n\n            </td>\n        </tr>\n        </tbody></table>\n\n\n\n        <table width="660" border="0" cellpadding="0" cellspacing="0" bgcolor="#f9f9f9" align="center" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;">\n        <tbody><tr>\n            <td width="660">\n\n            <table width="660" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#D6C6B3">\n                <tbody><tr>\n                <td height="10">\n                </td>\n                </tr>\n            </tbody></table>\n\n            <table width="660" border="0" cellpadding="0" cellspacing="0"  align="center" bgcolor="C4B19B">\n                <tbody><tr>\n                <td width="40"></td>\n                <td width="660" style="font-size:16px;color:#b8b9c1;font-weight:normal;text-align:center;font-family:Helvetica,Arial,sans-serif;line-height:24px;vertical-align:top">\n\n                </td>\n                <td width="40"></td>\n                </tr>\n                <tr>\n                <td width="40"></td>\n                <td width="660" style="font-size:14px;color:#fff;font-weight:normal;font-family:Helvetica,Arial,sans-serif;line-height:50px;text-align:center">\n                    \n                    <p>Excellinvestigations.net &#169; 2020  - All Rights Reserved.\n                    \n\n                    <a href="mailto:"+compmail+"" style="text-decoration:none;color:#008f9b;font-weight:bold" target="_blank"></a>\n                    </p>\n                </td>\n                <td width="40"></td>\n                </tr>\n                <tr>\n                <td width="40"></td>\n                <td width="512" height="10"></td>\n                <td width="40"></td>\n                </tr>\n            </tbody></table>\n\n            </td>\n        </tr>\n        </tbody></table>\n        \n        <table width="660" border="0" cellpadding="0" cellspacing="0" align="center" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1">\n            <tbody><tr>\n            <td width="660" bgcolor="#f0f0f0">\n\n                \n                <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n                <tbody><tr>\n                    <td width="660">\n\n                    \n        <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n                        <tbody><tr>\n                        <td width="30"></td>\n                        <td width="530">\n                            <table width="140" border="0" cellpadding="0" cellspacing="0" align="left">\n                            <tbody><tr>\n                                <td width="140">\n                                </td>\n                            </tr>\n                        </tbody></table>\n                            \n\n                        </td>\n                        <td width="30"></td>\n                        </tr>\n                    </tbody></table>\n                    </td>\n                </tr>\n                </tbody></table>\n            </td>\n            </tr>\n        </tbody></table>\n        \n\n\n\n        <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n        <tbody><tr>\n            <td width="660" style="border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;border-radius:0 0 10px 10px;background:#f0f0f0">\n\n            \n            <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n                <tbody><tr>\n                <td height="1">\n                </td>\n                </tr>\n            </tbody></table>\n            \n\n            </td>\n        </tr>\n        </tbody></table>\n\n\n\n        <table width="660" border="0" cellpadding="0" cellspacing="0" align="center">\n        <tbody><tr>\n            <td height="20"></td>\n        </tr>\n        <tr>\n            <td height="30" style="line-height:1px"></td>\n        </tr>\n        </tbody></table>\n        </td>\n        </tr>\n        </tbody></table>\n        \n        </body></html>\n\n    ',
+  attachments: 
+   [ { filename: 'contract.pdf',
+       content: <Buffer 25 50 44 46 2d 31 2e 34 0a 31 20 30 20 6f 62 6a 0a 3c 3c 0a 2f 54 69 74 6c 65 20 28 fe ff 29 0a 2f 43 72 65 61 74 6f 72 20 28 fe ff 29 0a 2f 50 72 6f ... > } ] }
+{ accepted: [ 'kedarlachke1@gmail.com' ],
+  rejected: [],
+  envelopeTime: 446,
+  messageTime: 475,
+  messageSize: 52234,
+  response: '250 3gwfkfbjDrUpN mail accepted for delivery',
+  envelope: 
+   { from: 'support@excellinvestigation.com',
+     to: [ 'kedarlachke1@gmail.com' ] },
+  messageId: '<7e4a7651-402a-2b9c-80ef-d497863e1abd@excellinvestigation.com>' }
+(node:32513) UnhandledPromiseRejectionWarning: ReferenceError: info is not defined
+    at _callee4$ (/home/itss/dev/services/contractsServices.js:173:71)
+    at tryCatch (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/home/itss/dev/services/contractsServices.js:31:191)
+    at /home/itss/dev/services/contractsServices.js:31:361
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:229:7)
+(node:32513) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:32513) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.

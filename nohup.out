@@ -1,0 +1,217 @@
+{ host: '81.4.102.11',
+  user: 'it_dev',
+  password: 'it_dev',
+  database: 'excel_qa',
+  multipleStatements: true }
+mongodb://81.4.102.11:27018/authdev
+GraphQL Server is now running on http://81.4.102.11:7001/excellinv
+Go to http://81.4.102.11:7001/excellinv to run queries!
+------------------------------------------------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174430
+103.204.163.56 - - [29/Jul/2020:12:14:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174431
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174431
+103.204.163.56 - - [29/Jul/2020:12:14:31 +0000] "GET /vendors~bundle.f44f4e69cd0740773da4.js HTTP/1.1" 304 - "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+103.204.163.56 - - [29/Jul/2020:12:14:31 +0000] "GET /vendors~bundle~vendor.af973ca212b4ce8adef6.js HTTP/1.1" 304 - "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174431
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174431
+103.204.163.56 - - [29/Jul/2020:12:14:31 +0000] "GET /bundle.e50ddc5b104b36d01d4a.js HTTP/1.1" 304 - "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174431
+103.204.163.56 - - [29/Jul/2020:12:14:31 +0000] "GET /vendors~vendor.8f351a5da98499e33d17.js HTTP/1.1" 304 - "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+103.204.163.56 - - [29/Jul/2020:12:14:31 +0000] "GET /vendor.d20872d3057a3eb1f23d.js HTTP/1.1" 304 - "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174436
+-----------------
+currentUserUsername
+-----------------
+------context.request.user-----------
+{ _id: 5b6fc9963d97ce30389484ec,
+  applicationid: '15001500',
+  client: '1002',
+  lang: 'EN',
+  username: 'exuser',
+  password: '$2a$10$ZtBz41oI/hGZAvb/40vRX.H.mRGhGVKg6TZI/R5kH53pAZA9CBAyq',
+  email: 'exuser@itss.com',
+  __v: 0,
+  mobile: '1234567891' }
+--------context.request.user---------
+103.204.163.56 - - [29/Jul/2020:12:14:36 +0000] "POST /excellinv HTTP/1.1" 200 139 "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174437
+s0
+s0
+s0
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:37 +0000] "POST /excellinv HTTP/1.1" 200 101544 "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174437
+103.204.163.56 - - [29/Jul/2020:12:14:37 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://81.4.102.11:7001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174442
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:42 +0000] "POST /excellinv HTTP/1.1" 200 36984 "http://81.4.102.11:7001/cases" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174442
+103.204.163.56 - - [29/Jul/2020:12:14:42 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://81.4.102.11:7001/cases" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174447
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174447
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 3153 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174447
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 6503 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+Request received at : 20200729  174447
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 292 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 4067 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174447
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174447
+s0
+-----------------
+deserializeUser
+-----------------
+-----------------
+deserializeUser
+-----------------
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 1809 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+Request received at : 20200729  174447
+Request received at : 20200729  174447
+s0
+s0
+s0
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 174 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+103.204.163.56 - - [29/Jul/2020:12:14:47 +0000] "POST /excellinv HTTP/1.1" 200 365 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174449
+Request received at : 20200729  174449
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:49 +0000] "POST /excellinv HTTP/1.1" 200 340 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+103.204.163.56 - - [29/Jul/2020:12:14:49 +0000] "POST /excellinv HTTP/1.1" 200 632 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174452
+s0
+103.204.163.56 - - [29/Jul/2020:12:14:52 +0000] "POST /excellinv HTTP/1.1" 200 299 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174508
+s0
+in remider wqe
+1
+error
+{ AssertionError [ERR_ASSERTION]: html-pdf: Can't create a pdf without an html string
+    at new PDF (/home/itss/dev/node_modules/html-pdf/lib/pdf.js:39:3)
+    at Object.createPdf [as create] (/home/itss/dev/node_modules/html-pdf/lib/index.js:6:14)
+    at _loop (/home/itss/dev/services/remindersServices.js:381:31)
+    at /home/itss/dev/services/remindersServices.js:354:9
+    at _callee8$ (/home/itss/dev/services/remindersServices.js:344:26)
+    at tryCatch (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/home/itss/dev/services/remindersServices.js:33:191)
+    at /home/itss/dev/services/remindersServices.js:33:437
+    at new Promise (<anonymous>)
+    at /home/itss/dev/services/remindersServices.js:33:99
+    at sendReminderMail (/home/itss/dev/services/remindersServices.js:344:7)
+    at _callee6$ (/home/itss/dev/services/remindersServices.js:331:13)
+    at tryCatch (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==' }
+103.204.163.56 - - [29/Jul/2020:12:15:08 +0000] "POST /excellinv HTTP/1.1" 200 34 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174710
+s0
+103.204.163.56 - - [29/Jul/2020:12:17:10 +0000] "POST /excellinv HTTP/1.1" 200 299 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
+-----------------
+deserializeUser
+-----------------
+Request received at : 20200729  174742
+s0
+in remider wqe
+1
+error
+{ AssertionError [ERR_ASSERTION]: html-pdf: Can't create a pdf without an html string
+    at new PDF (/home/itss/dev/node_modules/html-pdf/lib/pdf.js:39:3)
+    at Object.createPdf [as create] (/home/itss/dev/node_modules/html-pdf/lib/index.js:6:14)
+    at _loop (/home/itss/dev/services/remindersServices.js:381:31)
+    at /home/itss/dev/services/remindersServices.js:354:9
+    at _callee8$ (/home/itss/dev/services/remindersServices.js:344:26)
+    at tryCatch (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/home/itss/dev/services/remindersServices.js:33:191)
+    at /home/itss/dev/services/remindersServices.js:33:437
+    at new Promise (<anonymous>)
+    at /home/itss/dev/services/remindersServices.js:33:99
+    at sendReminderMail (/home/itss/dev/services/remindersServices.js:344:7)
+    at _callee6$ (/home/itss/dev/services/remindersServices.js:331:13)
+    at tryCatch (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/home/itss/dev/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==' }
+103.204.163.56 - - [29/Jul/2020:12:17:42 +0000] "POST /excellinv HTTP/1.1" 200 34 "http://81.4.102.11:7001/casetype" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"
